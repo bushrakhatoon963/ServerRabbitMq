@@ -1,0 +1,211 @@
+2023-10-30 07:23:25.401 +05:30 [INF] Server started.
+2023-10-30 07:37:37.427 +05:30 [INF] Server started.
+2023-10-30 07:42:32.727 +05:30 [INF] Server started.
+2023-10-30 07:54:30.078 +05:30 [INF] Server started.
+2023-10-30 07:57:51.632 +05:30 [INF] Server started.
+2023-10-30 07:59:58.037 +05:30 [INF] Server started.
+2023-10-30 08:36:35.999 +05:30 [INF] Server started.
+2023-10-30 08:40:24.946 +05:30 [INF] Server started.
+2023-10-30 08:41:59.163 +05:30 [INF] Server started.
+2023-10-30 08:46:53.176 +05:30 [INF] Server started.
+2023-10-30 08:51:35.364 +05:30 [INF] Server started.
+2023-10-30 08:55:51.889 +05:30 [INF] Server started.
+2023-10-30 09:00:31.430 +05:30 [INF] Server started.
+2023-10-30 10:42:16.648 +05:30 [INF] Server started.
+2023-10-30 10:43:36.392 +05:30 [INF] Server started.
+2023-10-30 10:47:30.762 +05:30 [INF] Server started.
+2023-10-30 11:08:47.117 +05:30 [INF] Server started.
+2023-10-30 11:08:47.654 +05:30 [ERR] An error occurred: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServerChatAMQP.CsvReaderHelper.ReadCsvFile(String csvFilePath) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\CsvReaderHelper.cs:line 12
+   at ServerChatAMQP.Program.Main(String[] args) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\Program.cs:line 143
+2023-10-30 11:10:02.798 +05:30 [INF] Server started.
+2023-10-30 11:10:03.364 +05:30 [ERR] An error occurred: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServerChatAMQP.CsvReaderHelper.ReadCsvFile(String csvFilePath) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\CsvReaderHelper.cs:line 12
+   at ServerChatAMQP.Program.Main(String[] args) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\Program.cs:line 143
+2023-10-30 11:10:15.139 +05:30 [INF] Server started.
+2023-10-30 11:10:15.640 +05:30 [ERR] An error occurred: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServerChatAMQP.CsvReaderHelper.ReadCsvFile(String csvFilePath) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\CsvReaderHelper.cs:line 12
+   at ServerChatAMQP.Program.Main(String[] args) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\Program.cs:line 143
+2023-10-30 11:10:27.965 +05:30 [INF] Server started.
+2023-10-30 11:10:28.472 +05:30 [ERR] An error occurred: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServerChatAMQP.CsvReaderHelper.ReadCsvFile(String csvFilePath) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\CsvReaderHelper.cs:line 12
+   at ServerChatAMQP.Program.Main(String[] args) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\Program.cs:line 143
+2023-10-30 11:10:49.469 +05:30 [INF] Server started.
+2023-10-30 11:10:49.899 +05:30 [ERR] An error occurred: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServerChatAMQP.CsvReaderHelper.ReadCsvFile(String csvFilePath) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\CsvReaderHelper.cs:line 12
+   at ServerChatAMQP.Program.Main(String[] args) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\Program.cs:line 143
+2023-10-30 11:11:02.837 +05:30 [INF] Server started.
+2023-10-30 11:11:03.911 +05:30 [ERR] An error occurred: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServerChatAMQP.CsvReaderHelper.ReadCsvFile(String csvFilePath) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\CsvReaderHelper.cs:line 12
+   at ServerChatAMQP.Program.Main(String[] args) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\Program.cs:line 143
+2023-10-30 11:13:06.827 +05:30 [INF] Server started.
+2023-10-30 11:13:07.867 +05:30 [ERR] An error occurred: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'D:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\bin\Debug\team.csv' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServerChatAMQP.CsvReaderHelper.ReadCsvFile(String csvFilePath) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\CsvReaderHelper.cs:line 12
+   at ServerChatAMQP.Program.Main(String[] args) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\Program.cs:line 143
+2023-10-30 11:13:33.972 +05:30 [INF] Server started.
+2023-10-30 11:13:46.019 +05:30 [ERR] An error occurred: None of the specified endpoints were reachable
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.AggregateException: One or more errors occurred. ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5672
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   at RabbitMQ.Client.Impl.TcpClientAdapter.<>c__DisplayClass2_0.<ConnectAsync>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   at RabbitMQ.Client.Impl.TcpClientAdapter.<ConnectAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at RabbitMQ.Client.Impl.TaskExtensions.<TimeoutAfter>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, ArrayPool`1 pool, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ServerChatAMQP.Program.Main(String[] args) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\Program.cs:line 155
+2023-10-30 11:14:04.123 +05:30 [INF] Server started.
+2023-10-30 11:14:12.716 +05:30 [ERR] An error occurred: None of the specified endpoints were reachable
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.AggregateException: One or more errors occurred. ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5672
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   at RabbitMQ.Client.Impl.TcpClientAdapter.<>c__DisplayClass2_0.<ConnectAsync>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   at RabbitMQ.Client.Impl.TcpClientAdapter.<ConnectAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at RabbitMQ.Client.Impl.TaskExtensions.<TimeoutAfter>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, ArrayPool`1 pool, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ServerChatAMQP.Program.Main(String[] args) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\Program.cs:line 155
+2023-10-30 11:15:07.823 +05:30 [INF] Server started.
+2023-10-30 11:15:14.689 +05:30 [ERR] An error occurred: None of the specified endpoints were reachable
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.AggregateException: One or more errors occurred. ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5672
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+   at RabbitMQ.Client.Impl.TcpClientAdapter.<>c__DisplayClass2_0.<ConnectAsync>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   at RabbitMQ.Client.Impl.TcpClientAdapter.<ConnectAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at RabbitMQ.Client.Impl.TaskExtensions.<TimeoutAfter>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, ArrayPool`1 pool, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ServerChatAMQP.Program.Main(String[] args) in d:\C#\AMQP-RabbitMQ-Chat-System\xtra-backup-working-code-1\ServerChatAMQP\ServerChatAMQP\Program.cs:line 155
+2023-10-30 11:43:57.661 +05:30 [INF] Server started.
+2023-10-30 11:49:23.505 +05:30 [INF] Server started.
